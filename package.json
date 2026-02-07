@@ -1,15 +1,18 @@
 {
   "name": "mi-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/app.js",
+  "type": "module",
   "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Primera entrega backend",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.0.0"
   }
 }
